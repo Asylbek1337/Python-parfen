@@ -1,16 +1,22 @@
-# This is a sample Python script.
+myList = [13, 46, 79, 85, 95]   # вектор
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print(myList)
+
+с = set(myList)
+print(с)
+
+r = list(с)
+print(r)
+print("----------------------------------------------------------------------------------")
+
+print(r*100)
+print(r*34)
+print(r*46)
+print(r*52)
+print(r*34)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# print(type(с))  # выводит тип данных переменной
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# ДЗ: 1. Попробуйте сохранить в одной переменной следующий вектор: 13, 46, 79, 85, 95.
+#     2. Реализуйте умножение вектора из 1 на: 100, 34, 46, 52, 34.
